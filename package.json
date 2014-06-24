@@ -1,0 +1,28 @@
+{
+  "name": "meddle",
+  "version": "0.0.1",
+  "description": "Simple, observable data modeling",
+  "main": "meddle.js",
+  "scripts": {
+    "test": "karma run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elishacook/meddle"
+  },
+  "keywords": [
+    "model",
+    "MVC"
+  ],
+  "author": "Elisha Fitch-Cook <elisha@elishacook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elishacook/meddle/issues"
+  },
+  "homepage": "https://github.com/elishacook/meddle",
+  "devDependencies": {
+    "karma": "~0.12.16",
+    "karma-chrome-launcher": "~0.1.4",
+    "karma-jasmine": "~0.1.5"
+  }
+}
