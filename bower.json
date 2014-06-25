@@ -2,11 +2,12 @@
   "name": "meddle",
   "version": "0.0.3",
   "description": "Simple, observable data modeling",
-  "main": "meddle.js",
+  "main": "src/meddle.js",
   "moduleType": [
     "amd",
     "globals",
-    "node"
+    "node",
+    "angularjs"
   ],
   "keywords": [
     "model",
