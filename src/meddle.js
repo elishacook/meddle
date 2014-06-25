@@ -194,5 +194,19 @@ var Meddle = {
 
 window.Meddle = Meddle
 
+if (typeof define === "function")
+{
+    define(Meddle)
+}
+
+if (typeof module !== "undefined" && module.exports)
+{
+    module.exports = Meddle
+}
+
+if (window.angular !== undefined)
+{
+    angular.module('meddle').factory('Meddle', function () { return Meddle })
+}
 
 })();
