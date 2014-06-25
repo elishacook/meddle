@@ -1,1 +1,0 @@
-IE9 or greater
