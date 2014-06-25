@@ -206,7 +206,7 @@ if (typeof module !== "undefined" && module.exports)
 
 if (window.angular !== undefined)
 {
-    angular.module('meddle').factory('Meddle', function () { return Meddle })
+    angular.module('meddle', []).factory('Meddle', function () { return Meddle })
 }
 
 })();

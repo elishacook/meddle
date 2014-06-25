@@ -1,6 +1,6 @@
 {
   "name": "meddle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple, observable data modeling",
   "main": "meddle.js",
   "scripts": {
